@@ -5,10 +5,12 @@
 #include "application.h"
 #include <iostream>
 
+using namespace std;
+
 int main()
 {
 
-		std::cout << "main.ccp started" << "\n";
+		cout << "main.ccp started" << endl;
 		application *app = new application();
 		app->run();
 
